@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useCart } from './hooks/useCart';
 import Navbar from './components/Navbar';
@@ -17,7 +16,7 @@ const itemFade = {
 };
 
 export default function CartPage() {
-  const { cartItems, removeItem, updateQuantity, getTotalPrice, isLoading } = useCart();
+  const { cartItems, removeItem, updateQuantity, getTotalPrice } = useCart();
   
 
 

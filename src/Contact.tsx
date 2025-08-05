@@ -59,7 +59,7 @@ export default function ContactPage() {
               animate="visible"
               variants={formVariants}
             >
-              {['name', 'email', 'message'].map((field:any, i) => (
+              {['name', 'email', 'message'].map((field:any) => (
                 <motion.label
                   key={field}
                   className="block"

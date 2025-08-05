@@ -5,7 +5,6 @@ import CartPage from './Cart';
 import ProductDetails from './ProductDetails';
 import ProductsPage from './productsPage';
 import ContactPage from './Contact';
-import { useCart } from './hooks/useCart';
 import { PageTransition } from './components/PageTransition';
 
 function AppRoutes() {
